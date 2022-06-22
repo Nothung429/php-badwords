@@ -17,6 +17,10 @@
         <header>
             <h1><?= ($text) ?></h1>
             <h2>lunghezza:<?= strlen($text) ?></h2>
+            <form action="" method="get">
+                <input type="text" name="forbidden">
+                <button type="submit">Censor</button>
+            </form>
             <h1><?= ($censoredText) ?></h1>
             <h2>lunghezza:<?= strlen($censoredText) ?></h2>
         </header>        
